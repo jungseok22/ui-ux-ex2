@@ -1,0 +1,209 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 8em;
+  line-height: 8em;
+}
+
+header #logo {
+  position: relative;
+  float: left;
+  height: 100%;
+  z-index: 101;
+  margin-left: 2em;
+}
+
+#nav {
+  position: relative;
+  z-index: 100;
+  text-align: center;
+  font-family: "맑은 고딕";
+  background: -webkit-linear-gradient(right, #ff7101, #ecaa2e, #ff7101);
+  font-weight: 1000;
+  height: 100%;
+}
+
+#nav ul {
+  position: relative;
+  z-index: 101;
+}
+
+#nav li {
+  display: inline-block;
+  position: relative;
+  margin: 0 0.5em 0 0.5em;
+
+  -moz-transition: top .15s ease-in-out;
+  -webkit-transition: top .15s ease-in-out;
+  -o-transition: top .15s ease-in-out;
+  -ms-transition: top .15s ease-in-out;
+  transition: top .15s ease-in-out;
+}
+
+#nav li>ul {
+  display: none;
+}
+
+#nav li a {
+  -moz-transition: background-color .075s ease-in-out, color .075s ease-in-out;
+  -webkit-transition: background-color .075s ease-in-out, color .075s ease-in-out;
+  -ms-transition: background-color .075s ease-in-out, color .075s ease-in-out;
+  transition: background-color .075s ease-in-out, color .075s ease-in-out;
+  position: relative;
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  top: -6px;
+  width: 6em;
+  padding: 0.25em 1.5em 0.25em 1.5em;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  font-size: 15pt;
+  outline: 0;
+}
+
+#nav li:hover a {
+  background: #6eae73;
+}
+
+#nav li.current a {
+  background: #389e41;
+}
+
+.dropotron {
+  list-style: none;
+  background: #77766b;
+  color: #fff;
+  border-radius: 6px;
+  line-height: 2.75em;
+  text-align: center;
+  font-family: '맑은 고딕';
+  font-weight: 700;
+  padding: 1em 0;
+  text-align: left;
+  min-width: 14em;
+  margin-top: -1em;
+  box-shadow: 0 1em 2em 0 rgba(0, 0, 0, 0.1);
+}
+
+.dropotron li {
+  padding-left: 0;
+}
+
+.dropotron li>a {
+  display: block;
+  color: #D7DAD8;
+  text-decoration: none;
+  padding: 0 1.25em;
+}
+
+.dropotron li:hover>a,
+.dropotron li:hover>span {
+  color: #fff;
+  background: #7B8780;
+}
+
+#header {
+  position: relative;
+  height :260px;
+  text-align: center;
+  background: linear-gradient( to top, #f7f7f7, #e9e9e9 );
+  margin-top: 70px;
+}
+
+#header p:nth-child(1) {
+  padding-top: 80px;
+  padding-bottom: 20px;
+  color: #aeafb3;
+  font-family: "맑은 고딕";
+}
+
+#header p:nth-child(2) {
+  font-size: 40px;
+  font-family: "맑은 고딕";
+  padding-bottom: 10px;
+}
+
+#header p:nth-child(3) {
+  font-size: 20px;
+  font-family: "맑은 고딕";
+  font-weight: bold;
+  color: #949496;
+}
+
+#wrapper {
+  margin: auto;
+  display: inline-block;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "맑은 고딕";
+}
+
+#listImg {
+ width: 200px;
+ height: 200px;
+ margin-right: 20px;
+ position: relative;
+ float: left;
+}
+
+#listTitle {
+  position: relative;
+  font-size: 30px;
+  display: inline;
+  color: #525657;
+}
+
+#listRating {
+  position: relative;
+  display: inline;
+  color: #FF7101;
+  font-size: 30px;
+}
+
+#listAddr {
+  font-size: 18px;
+  color: #aeafb3;
+  margin-bottom: 10px;
+}
+
+#listExplain {
+  width: 700px;
+  margin-bottom: 15px;
+}
+
+
+#listSection button {
+  border: none;
+  background-color: white;
+  float: right;
+
+}
+
+#listSection {
+  position: relative;
+  border-bottom: 0.1px solid #dbdbdb;
+  height: 220px;
+}
+
+#listSectionDiv {
+  position: relative;
+  border-bottom: 0.1px solid #dbdbdb;
+  height: 220px;
+  margin-bottom: 40px;
+}
+
+#listSection button a {
+  text-decoration: none;
+  color: #aeafb3;
+}
+
